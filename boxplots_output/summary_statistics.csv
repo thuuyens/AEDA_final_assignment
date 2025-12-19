@@ -1,0 +1,29 @@
+Variable,Mean,Median,StdDev,N
+Rychlost chůze (Velocity) - Normální chůze,104.825263157895,110.6,30.3723534235219,285
+Rychlá chůze,148.434736842105,159.4,47.2443903110581,285
+Délka kroku (Step length) - Normální chůze - Levá končetina,60.3531649122807,62,10.9960853923159,285
+Rychlá chůze - Levá končetina,70.3917894736842,72.43,13.7542221921289,285
+Normální chůze - Pravá končetina,60.1188315789474,61.267,10.9722786952989,285
+Rychlá chůze - Pravá končetina,70.0396350877193,72.286,14.3279171385216,285
+Čas kroku (Step time) - Normální chůze - Levá končetina,0.615049122807018,0.557,0.19463140780048,285
+Rychlá chůze - Levá končetina,0.517733333333333,0.464,0.183159936780166,285
+Normální chůze - Pravá končetina,0.619432701754386,0.56,0.193704522891959,285
+Rychlá chůze - Pravá končetina,0.514287719298246,0.462,0.183378316785173,285
+Čas stoje na obou končetinách (Double support time) - Normální chůze - Levá končetina,29.7828070175439,27.8,8.43295968176753,285
+Rychlá chůze - Levá končetina,24.5856140350877,22.2,8.80013824666213,285
+Normální chůze - Pravá končetina,30.2722807017544,27.9,9.73908038171431,285
+Rychlá chůze - Pravá končetina,24.6652631578947,21.9,8.92874100103719,285
+Šířka báze (Base width) - Normální chůze,10.4588035087719,10.019,3.88659142228643,285
+Rychlá chůze,10.3475368421053,10.025,3.78111634107302,285
+Variabilita délky kroku (Step length SD) - Normální chůze - Levá končetina,3.00690526315789,2.564,1.91489622456479,285
+Rychlá chůze - Levá končetina,3.31499649122807,2.856,2.10686631075541,285
+Normální chůze - Pravá končetina,2.99275789473684,2.482,2.20852881875952,285
+Rychlá chůze - Pravá končetina,3.4051298245614,2.83,3.43242457842956,285
+Variabilita času kroku (Step time) - Normální chůze - Levá končetina,0.0352561403508772,0.021,0.0487412072877515,285
+Rychlá chůze - Levá končetina,0.0521157894736842,0.022,0.246528225814113,285
+Normální chůze - Pravá končetina,0.0364526315789474,0.019,0.0900776388621504,285
+Rychlá chůze - Pravá končetina,0.0313578947368421,0.019,0.0686241933362077,285
+Variabilita stoje na obou končetinách (Double support time) - Normální chůze - Levá končetina,0.0363122807017544,0.021,0.0508117627717959,285
+Rychlá chůze - Levá končetina,0.0479368421052632,0.021,0.13574871751473,285
+Normální chůze - Pravá končetina,0.0280947368421053,0.017,0.0387790074120471,285
+Rychlá chůze - Pravá končetina,0.0290947368421053,0.017,0.0530792803965248,285

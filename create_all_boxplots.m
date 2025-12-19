@@ -1,5 +1,4 @@
 
-
 config.filename = 'data.xls';
 config.num_groups = 7;
 config.columns_start = 6;  % Column F
@@ -21,10 +20,10 @@ end
 fprintf('Reading data from %s...\n', config.filename);
 
 % Read all four header rows
-header_row0 = readcell(config.filename, 'Range', '1:1');  % Main category
-header_row1 = readcell(config.filename, 'Range', '2:2');  % Units
-header_row2 = readcell(config.filename, 'Range', '3:3');  % Walking type
-header_row3 = readcell(config.filename, 'Range', '4:4');  % Side (Left/Right)
+header_row0 = readcell(config.filename, 'Range', 'A1:AG1');  % Main category
+header_row1 = readcell(config.filename, 'Range', 'A2:AG2');  % Units
+header_row2 = readcell(config.filename, 'Range', 'A3:AG3');  % Walking type
+header_row3 = readcell(config.filename, 'Range', 'A4:AG4');  % Side (Left/Right)
 
 % Read data (starting from row 5)
 data = readmatrix(config.filename, 'Range', 'A5');
@@ -193,11 +192,30 @@ end
 function title_info = build_title(h0, h1, h2, h3, col_idx)
     % Build comprehensive title from multi-level headers
     
-    % Get header values
-    h0_val = h0{col_idx};
-    h1_val = h1{col_idx};
-    h2_val = h2{col_idx};
-    h3_val = h3{col_idx};
+    % Get header values with bounds checking
+    if col_idx <= length(h0)
+        h0_val = h0{col_idx};
+    else
+        h0_val = '';
+    end
+    
+    if col_idx <= length(h1)
+        h1_val = h1{col_idx};
+    else
+        h1_val = '';
+    end
+    
+    if col_idx <= length(h2)
+        h2_val = h2{col_idx};
+    else
+        h2_val = '';
+    end
+    
+    if col_idx <= length(h3)
+        h3_val = h3{col_idx};
+    else
+        h3_val = '';
+    end
     
     % Handle missing values
     if ismissing(h0_val), h0_val = ''; end
